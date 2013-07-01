@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeNexus", "CodeNexus\CodeNexus.csproj", "{F6DE25C9-FA2A-4B58-9F1B-E637333F6FE7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeNexus.Data.RavenDB", "CodeNexus.Data.RavenDB\CodeNexus.Data.RavenDB.csproj", "{DBFBBC4B-5ACA-4FAF-9E4E-DD728B1ACC21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeNexus.Harness", "CodeNexus.Harness\CodeNexus.Harness.csproj", "{5CD00FDF-4804-41F9-92B7-4647D6DE87EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeRaven.Data.Redis", "CodeRaven.Data.Redis\CodeRaven.Data.Redis.csproj", "{D10AE42C-B82E-4352-8928-7EA66BBFECA6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeNexus.Services", "CodeNexus.Services\CodeNexus.Services.csproj", "{E11C6AF5-83CA-4DC2-AAC1-87848AFCE1FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeNexus.App", "CodeNexus.Application\CodeNexus.App.csproj", "{3CDDD968-7F0E-48F9-B832-44B8B4989BE9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileNexus.App", "FileNexus.App\FileNexus.App.csproj", "{43C548CE-22AC-41AB-A4F0-0F4E149F49B4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F6DE25C9-FA2A-4B58-9F1B-E637333F6FE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6DE25C9-FA2A-4B58-9F1B-E637333F6FE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6DE25C9-FA2A-4B58-9F1B-E637333F6FE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6DE25C9-FA2A-4B58-9F1B-E637333F6FE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBFBBC4B-5ACA-4FAF-9E4E-DD728B1ACC21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBFBBC4B-5ACA-4FAF-9E4E-DD728B1ACC21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBFBBC4B-5ACA-4FAF-9E4E-DD728B1ACC21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBFBBC4B-5ACA-4FAF-9E4E-DD728B1ACC21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CD00FDF-4804-41F9-92B7-4647D6DE87EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CD00FDF-4804-41F9-92B7-4647D6DE87EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CD00FDF-4804-41F9-92B7-4647D6DE87EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CD00FDF-4804-41F9-92B7-4647D6DE87EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D10AE42C-B82E-4352-8928-7EA66BBFECA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D10AE42C-B82E-4352-8928-7EA66BBFECA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D10AE42C-B82E-4352-8928-7EA66BBFECA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D10AE42C-B82E-4352-8928-7EA66BBFECA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E11C6AF5-83CA-4DC2-AAC1-87848AFCE1FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E11C6AF5-83CA-4DC2-AAC1-87848AFCE1FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E11C6AF5-83CA-4DC2-AAC1-87848AFCE1FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E11C6AF5-83CA-4DC2-AAC1-87848AFCE1FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CDDD968-7F0E-48F9-B832-44B8B4989BE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CDDD968-7F0E-48F9-B832-44B8B4989BE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CDDD968-7F0E-48F9-B832-44B8B4989BE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CDDD968-7F0E-48F9-B832-44B8B4989BE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43C548CE-22AC-41AB-A4F0-0F4E149F49B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43C548CE-22AC-41AB-A4F0-0F4E149F49B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43C548CE-22AC-41AB-A4F0-0F4E149F49B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43C548CE-22AC-41AB-A4F0-0F4E149F49B4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
